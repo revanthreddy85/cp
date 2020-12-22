@@ -1,12 +1,12 @@
-package FastIO;
+package Algorithms;
 
 public class Mos_Query implements Comparable <Mos_Query> {
 
     public int id,l,r,lc;
     public long ord;
-//    void calcOrder() {
-//        this.ord = gilbertOrder(l, r, 21, 0);
-//    }
+    void calcOrder() {
+        this.ord = gilbertOrder(l, r, 21, 0);
+    }
 
     public int compareTo(Mos_Query q) {
 //        if (BL[l] != BL[q.l])
@@ -83,3 +83,4 @@ public class Mos_Query implements Comparable <Mos_Query> {
 //        VIS[x] ^= true;
     }
 }
+

@@ -1,6 +1,4 @@
-package FastIO;
-
-import java.util.LinkedList;
+package DataSructures;
 
 public class DSU {
     public int []root;
@@ -8,10 +6,10 @@ public class DSU {
 
     public DSU (int n) {
         root=new int[n+1];
-//        size=new int[n+1];
+        size=new int[n+1];
         for(int i=1;i<=n;i++) {
             root[i]=i;
-//            size[i]=1;
+            size[i]=1;
         }
     }
 

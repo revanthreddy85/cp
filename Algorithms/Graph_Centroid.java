@@ -1,14 +1,14 @@
-package FastIO;
+package Algorithms;
 
 import java.util.ArrayList;
 
-public class Centroid {
+public class Graph_Centroid {
     int n;
-    public ArrayList <Integer> []adj;
+    public ArrayList<Integer>[]adj;
     public ArrayList <Integer> list;
     public int []sz;
 
-    public Centroid(int n){
+    public Graph_Centroid(int n){
         this.n=n;
         list=new ArrayList<>();
         sz=new int[n+1];

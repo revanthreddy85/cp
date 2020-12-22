@@ -1,4 +1,4 @@
-package FastIO;
+package DataSructures;
 
 public class SegTree {
 
@@ -8,7 +8,7 @@ public class SegTree {
 
     int n;
     Node []tree;
-    
+
     public SegTree(int n) {
         this.n=n;
         tree=new Node[4*n];
@@ -58,3 +58,4 @@ public class SegTree {
         update(1,1,n,pos,val);
     }
 }
+

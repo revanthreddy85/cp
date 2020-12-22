@@ -1,6 +1,6 @@
-package FastIO;
+package Algorithms;
 
-public class InvMod {
+public class Combinatorics {
     int mod=(int)1e9+7,maxn=(int)3e5+5;
     long []fact;
     long []invfact;

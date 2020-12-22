@@ -1,4 +1,4 @@
-package FastIO;
+package DataSructures;
 
 public class FenTree {
 

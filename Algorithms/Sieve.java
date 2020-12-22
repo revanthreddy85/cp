@@ -1,4 +1,4 @@
-package FastIO;
+package Algorithms;
 
 public class Sieve {
     int maxn=1000005;
@@ -27,3 +27,4 @@ public class Sieve {
         }
     }
 }
+
